@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "af831fec78864f6cb1f237b8339fcf09",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1148,6 +1148,64 @@
                 }
             ],
             "time": "2020-05-18T15:13:39+00:00"
+        },
+        {
+            "name": "lob/lob-php",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lob/lob-php.git",
+                "reference": "e3eef9289b9ad8f5cb41cd9f99c632583575fb01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lob/lob-php/zipball/e3eef9289b9ad8f5cb41cd9f99c632583575fb01",
+                "reference": "e3eef9289b9ad8f5cb41cd9f99c632583575fb01",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "dompdf/dompdf": "0.6.*",
+                "phpunit/phpunit": "5.7.*",
+                "satooshi/php-coveralls": "2.*|1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Lob\\Tests": "tests/",
+                    "Lob": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lob",
+                    "email": "support@lob.com",
+                    "homepage": "https://www.lob.com"
+                }
+            ],
+            "description": "Lob.com API PHP wrapper.",
+            "homepage": "https://www.lob.com/",
+            "keywords": [
+                "api",
+                "lob",
+                "printing",
+                "rest",
+                "web service",
+                "wrapper"
+            ],
+            "time": "2018-12-14T22:35:56+00:00"
         },
         {
             "name": "monolog/monolog",
